@@ -1,0 +1,11 @@
+.page-index {
+  .chart {
+    padding: 60px 0 0 30px;
+    height: 460px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .chart + .chart {
+    margin-top: 50px;
+  }
+}
