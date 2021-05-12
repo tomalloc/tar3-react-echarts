@@ -1,3 +1,5 @@
+const path = require("path");
+
 const config = {
   projectName: 'taro-echarts',
   date: '2021-5-12',
@@ -17,6 +19,9 @@ const config = {
     ],
     options: {
     }
+  },
+  alias: {
+    "@": path.resolve(__dirname, "..", "src")
   },
   framework: 'react',
   mini: {

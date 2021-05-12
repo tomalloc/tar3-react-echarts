@@ -1,8 +1,8 @@
 import React , { Component }from 'react';
 import { View } from '@tarojs/components';
-import EChart from '../../components/echarts';
+import EChart from '@/components/echarts';
 
-import * as echarts from '../../components/echarts/echarts.js';
+import * as echarts from './echarts.js';
 
 import './index.scss';
 
